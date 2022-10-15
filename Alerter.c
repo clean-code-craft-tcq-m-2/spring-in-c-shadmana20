@@ -1,4 +1,5 @@
 #include "Alerter.h"
+alerter_funcptr alerters[] = {emailAlerter, ledAlerter};
 void emailAlerter(void)
 {
     int emailAlertCallCount = 0;
