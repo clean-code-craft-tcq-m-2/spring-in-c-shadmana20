@@ -1,10 +1,11 @@
 
-struct Stats compute_statistics(const float* numberset, int setlength);
 struct Stats {
     float average;
     float min;
     float max;
 };
+struct Stats compute_statistics(const float* numberset, int setlength);
+
 
 struct Stats compute_statistics(const float* numberset, int setlength);
 float GetMax(const float* numberset,int setlength);
